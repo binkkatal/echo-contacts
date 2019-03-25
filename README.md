@@ -1,5 +1,11 @@
 # ECHO-CONTACTS
 
+Echo-Contacts is repository that demonstrates the use of `echo` framework in creating contacts.
+
+The repository uses `mysql` as db driver and the below given endpoints can be used to `Create` , `Read` , `Update` and `Delete`.
+
+The endpoints uses jwt token based authorization and the token can be generated using the `/login` endpoint.
+
 ## SETUP
 
 - Open the `/setup/setup.sh` and replace the `mysql` db username and password as per your system.
