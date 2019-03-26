@@ -8,6 +8,8 @@ The endpoints uses jwt token based authorization and the token can be generated 
 
 ## SETUP
 
+Before running the setup, ensure that you have dep as the dependency manager and run `dep ensure` to fetch the dependencies.
+
 - Open the `/setup/setup.sh` and replace the `mysql` db username and password as per your system.
 
 - Run the make command to execute the program. The make command will do the following.
